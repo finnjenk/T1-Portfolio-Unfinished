@@ -8,33 +8,20 @@ nav {
     padding-left: 2%;
     padding-right: 2%;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 nav div {
     display: flex;
-    
+    width: 50%;
+    justify-content: space-evenly;
 }
-/* nav :nth-child(1) {
-    flex: 1
-} */
-
-/* nav :nth-child(2) {
-    justify-self: right;
-} */
-
-/* .home {
-display: flex;
-justify-content: left;
-margin-left: 2%;
-} */
-
-/* .right {
-color: red;
-display: flex;
-justify-content:right;
-justify-content: space-between;
-font-size: 1rem;
-} */
 
 body {
+    font-family: 'Lato', sans-serif;
     background-color: grey;
 }
 
@@ -42,6 +29,7 @@ main {
 font-size: 2rem;
 display: flex;
 justify-content: center;
+align-items: center;
 padding-top: 10%;
 padding-bottom: 10%;
 /* position: relative; */
@@ -55,7 +43,7 @@ margin: 5%;
 #babyjenk {
 display: flex;
 justify-content: center;
-box-shadow: 2px 2px #fe4741;
+border: 3px solid black;
 width: 25%;
 height: 25%;
 border-radius: 40%;
@@ -65,6 +53,8 @@ border-radius: 40%;
 display: flex;
 flex-direction: row;
 justify-content: center;
+justify-content: space-between;
+width: 25%;
 }
 
 .socials img {
@@ -77,8 +67,5 @@ display: flex;
 flex-direction: column;
 border-top: solid;
 padding-top: 1%;
-}
-
-.footer {
-    text-align: center;
+align-items: center;
 }

@@ -35,7 +35,7 @@ section {
 #newyork {
     display: flex;
     justify-content: center;
-    box-shadow: 2px 2px #fe4741;
+    box-shadow: 3px 3px black;
     width: 45%;
     height: 45%;
     border-radius: 40%;
