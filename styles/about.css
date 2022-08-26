@@ -9,9 +9,20 @@ nav {
     padding-right: 2%;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+    /* font-size: 1.2rem; */
+}
+    
 nav div {
     display: flex;
-    
+    width: 50%;
+    justify-content: space-evenly;
 }
 
 body {
@@ -24,18 +35,25 @@ main {
     justify-content: center;
     padding-top: 10%;
     padding-bottom: 10%;
-    /* position: relative; */
-    height:calc();
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: grey;
 }
 
 section {
     margin: 5%;
 }
 
+main {
+    margin-right: 5%;
+}
+
 #newyork {
     display: flex;
     justify-content: center;
-    box-shadow: 3px 3px black;
+    border: 4px solid black;
     width: 45%;
     height: 45%;
     border-radius: 40%;
@@ -45,20 +63,19 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    }
+    justify-content: space-between;
+    width: 25%;
+}
     
-    .socials img {
+.socials img {
     width: 50px;
     height: 50px;
-    }
+}
     
-    footer {
+footer {
     display: flex;
     flex-direction: column;
     border-top: solid;
     padding-top: 1%;
-    }
-    
-    .footer {
-        text-align: center;
-    }
+    align-items: center;
+}
