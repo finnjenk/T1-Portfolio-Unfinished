@@ -21,6 +21,7 @@ body {
 main {
     font-size: 2rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-top: 10%;
     padding-bottom: 10%;
@@ -28,26 +29,27 @@ main {
     height:calc();
 }
 
+.headings {
+display: flex;
+width: 200%;
+}
+
+article {
+display: flex;
+/* flex-wrap: wrap; */
+flex-direction: column;
+/* background: white; */
+}
+
+article img {
+width: 50%;
+
+}
+
 section {
+    display: flex;
+    justify-content: space-evenly;
     margin: 5%;
-}
-
-#htmllogo {
-    display: flex;
-    justify-content: center;
-    box-shadow: 2px 2px #fe4741;
-    width: 25%;
-    height: 25%;
-    border-radius: 40%;
-}
-
-#construction {
-    display: flex;
-    justify-content: center;
-    box-shadow: 2px 2px #fe4741;
-    width: 25%;
-    height: 25%;
-    border-radius: 40%;
 }
 
 .socials {
