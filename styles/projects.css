@@ -50,12 +50,13 @@ article {
 display: flex;
 /* flex-wrap: wrap; */
 flex-direction: column;
-/* background: white; */
+background: white;
 }
 
 article img {
 width: 50%;
-
+/* width: 150px; */
+border-radius: 20%;
 }
 
 section {
