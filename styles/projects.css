@@ -32,13 +32,8 @@ body {
 
 main {
     font-size: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     padding-top: 10%;
     padding-bottom: 10%;
-    /* position: relative; */
-    height:calc();
 }
 
 .headings {
@@ -51,6 +46,8 @@ display: flex;
 /* flex-wrap: wrap; */
 flex-direction: column;
 background: white;
+border: 4px solid black;
+align-items: center;
 }
 
 article img {
