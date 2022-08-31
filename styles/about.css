@@ -1,3 +1,4 @@
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -25,7 +26,9 @@ nav div {
     justify-content: space-evenly;
 }
 
-
+section a {
+    text-decoration: underline;
+}
 
 main {
     font-size: 2rem;

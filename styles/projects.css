@@ -43,23 +43,24 @@ width: 200%;
 
 article {
 display: flex;
+width: 30%;
 /* flex-wrap: wrap; */
 flex-direction: column;
 background: white;
 border: 4px solid black;
 align-items: center;
+/* justify-content: space-between; */
 }
 
 article img {
 width: 50%;
-/* width: 150px; */
 border-radius: 20%;
 }
 
 section {
     display: flex;
-    justify-content: space-evenly;
     margin: 5%;
+    justify-content: space-evenly;
 }
 
 .socials {
