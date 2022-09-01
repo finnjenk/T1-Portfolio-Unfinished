@@ -1,3 +1,4 @@
+/* Navigation Bar Layout */
 nav {
     display: flex;
     justify-content: space-between;
@@ -14,33 +15,33 @@ a {
     color: black;
 }
 
+/* Red highlight when hovering over navigation options */
 a:hover {
     color: red;
     /* font-size: 1.2rem; */
 }
-    
+
+/* 'About', 'Projects' and 'Blog' Layout/Spacing */
 nav div {
     display: flex;
     width: 50%;
     justify-content: space-evenly;
 }
 
+/* Webpage ackground colour and font */
 body {
     font-family: 'Lato', sans-serif;
     background-color: grey;
 }
 
+/* Font sizing main body + padding */
 main {
     font-size: 2rem;
     padding-top: 10%;
     padding-bottom: 10%;
 }
 
-.headings {
-display: flex;
-width: 200%;
-}
-
+/* Projext boxes spacing + background */
 article {
 display: flex;
 width: 30%;
@@ -50,17 +51,20 @@ border: 4px solid black;
 align-items: center;
 }
 
+/* Project 1,2,3 image sizing */
 article img {
 width: 50%;
 border-radius: 20%;
 }
 
+/* Boxes layout */
 section {
     display: flex;
     margin: 5%;
     justify-content: space-evenly;
 }
 
+/* Spacing of social media icons */
 .socials {
     display: flex;
     flex-direction: row;
@@ -68,12 +72,14 @@ section {
     justify-content: space-between;
     width: 45%;
 }
-    
+
+/* Sizing of social media icons */
 .socials img {
     width: 50px;
     height: 50px;
 }
-    
+
+/* Footer border + positioning of social media icons and copyright*/
 footer {
     display: flex;
     flex-direction: column;
@@ -82,38 +88,26 @@ footer {
     align-items: center;
 }
 
+/* Responsiveness for tablets */
 @media only screen and (max-width: 850px) {
     article {
-        display: flex;
         width: 70%;
-        flex-wrap: wrap;
-        background: white;
         border: 4px solid black;
-        align-items: center;
-        
         }
     section {
-        display: flex;
         flex-direction: column;
-        margin: 5%;
-        justify-content: space-evenly;
         align-items: center;
     }
 }
 
+/* Responsiveness for mobile devices */
 @media only screen and (max-width: 520px) {
     article {
-        display: flex;
         width: 90%;
-        flex-wrap: wrap;
-        flex-direction: column;
-        background: white;
-        border: 4px solid black;
+        border: 2px solid black;
         align-items: center;
         }
         main {
             font-size: 1rem;
-            padding-top: 10%;
-            padding-bottom: 10%;
         }
 }

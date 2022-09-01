@@ -1,3 +1,4 @@
+/* Navigation Bar Layout */
 nav {
     display: flex;
     justify-content: space-between;
@@ -14,17 +15,27 @@ a {
     color: black;
 }
 
+/* Red highlight when hovering over navigation options */
 a:hover {
     color: red;
     /* font-size: 1.2rem; */
 }
-    
+
+/* 'About', 'Projects' and 'Blog' Layout/Spacing */
 nav div {
     display: flex;
     width: 50%;
     justify-content: space-evenly;
 }
 
+/* Webpage ackground colour and font */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: grey;
+    height: 100vh;
+}
+
+/* Background Jett image sizing + scale */
 section {
     background: url("../photos/radiant.jpeg");
     height: 90%;
@@ -37,13 +48,7 @@ section {
     margin: 5%;
 }
 
-section p {
-    width: 50%;
-    background: rgba(255, 255, 255, 0.6);
-    padding: 1%;
-    border: 2px solid black;
-}
-
+/* Heading sizing + background opacity */
 section h2 {
     margin-top: -5%;
     margin-bottom: 5%;
@@ -52,16 +57,19 @@ section h2 {
     border: 2px solid black;
 }
 
-body {
-    font-family: 'Lato', sans-serif;
-    background-color: grey;
-    height: 100vh;
+/* Paragraph sizing + background opacity */
+section p {
+    width: 50%;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 1%;
+    border: 2px solid black;
 }
 
 main {
     height: 100%;
 }
 
+/* Spacing of social media icons */
 .socials {
     display: flex;
     flex-direction: row;
@@ -69,12 +77,14 @@ main {
     justify-content: space-between;
     width: 45%;
 }
-    
+
+/* Sizing of social media icons */
 .socials img {
     width: 50px;
     height: 50px;
 }
-    
+
+/* Footer border + positioning of social media icons and copyright*/
 footer {
     display: flex;
     flex-direction: column;
@@ -83,12 +93,14 @@ footer {
     align-items: center;
 }
 
+/* Responsiveness for tablets */
 @media only screen and (max-width: 1000px) {
     section {
         background-position: center;
     }
 }
 
+/* Responsiveness for mobile devices */
 @media only screen and (max-width: 600px) {
 section h2 {
     font-size: 1rem;
