@@ -1,3 +1,4 @@
+/* Navigation Bar Layout */
 nav {
     display: flex;
     justify-content: space-between;
@@ -14,22 +15,25 @@ a {
     color: black;
 }
 
+/* Red highlight when hovering over navigation options */
 a:hover {
 color: red;
-/* font-size: 1.2rem; */
 }
 
+/* 'About', 'Projects' and 'Blog' Layout/Spacing */
 nav div {
     display: flex;
     width: 50%;
     justify-content: space-evenly;
 }
 
+/* Webpage ackground colour and font */
 body {
     font-family: 'Lato', sans-serif;
     background-color: grey;
 }
 
+/* Main heading and text sizing */
 main {
 font-size: 2rem;
 display: flex;
@@ -39,6 +43,7 @@ padding-top: 10%;
 padding-bottom: 10%;
 }
 
+/* Spacing between image and heading */
 section {
 margin: 5%;
 }
@@ -48,10 +53,10 @@ display: flex;
 justify-content: center;
 border: 4px solid black;
 width: 25%;
-height: 25%;
 border-radius: 40%;
 }
 
+/* Spacing of social media icons */
 .socials {
 display: flex;
 flex-direction: row;
@@ -60,46 +65,37 @@ justify-content: space-between;
 width: 45%;
 }
 
+/* Sizing of social media icons */
 .socials img {
 width: 50px;
 height: 50px;
 }
 
+/* Footer border + positioning of social media icons and copyright*/
 footer {
 display: flex;
 flex-direction: column;
 border-top: solid;
 padding-top: 1%;
 align-items: center;
-/* margin-bottom: auto; */
 }
 
+/* Responsiveness for tablets */
 @media only screen and (max-width: 700px) {
     main {
         font-size: 1.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 10%;
-        padding-bottom: 10%;
         }
+        #babyjenk {
+            width: 35%;
 }
 
+/* Responsiveness for mobile devices */
 @media only screen and (max-width: 500px) {
     #babyjenk {
-        display: flex;
-        justify-content: center;
-        border: 4px solid black;
-        width: 25%;
-        height: 25%;
-        border-radius: 40%;
+        border: 2px solid black;
+        width: 35%;
         }
     main {
-        font-size: 1.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 10%;
-        padding-bottom: 10%;
+        flex-direction: column;
         }
 }

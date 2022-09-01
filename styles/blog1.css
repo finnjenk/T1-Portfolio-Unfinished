@@ -83,10 +83,17 @@ footer {
     align-items: center;
 }
 
-@media only screen and (max-width: 850px) {
-
+@media only screen and (max-width: 1000px) {
+    section {
+        background-position: center;
+    }
 }
 
-@media only screen and (max-width: 500px) {
-
+@media only screen and (max-width: 600px) {
+section h2 {
+    font-size: 1rem;
+}
+section p {
+    font-size: .8rem;
+}
 }
